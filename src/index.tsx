@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tailwindcss/tailwind.css';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { client } from './apollo';
 // import "./styles/tailwind.css";
 
 const root = ReactDOM.createRoot(
@@ -10,7 +12,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <ApolloProvider client={client}>
     <App />
+  </ApolloProvider>,
   </React.StrictMode>
 );
 
