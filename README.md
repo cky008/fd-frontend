@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# FooDelivery Platform - Full stack food delivery web application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The frontend of the FooDelivery platform - Kaiyu Chen's final project for SETU.
 
-## Available Scripts
+## Abstract
 
-In the project directory, you can run:
+FooDelivery (FD) is a web-based food delivery platform that leverages the most up-to-date technologies, including NestJS, GraphQL, WebSockets, Typescript, and React, to provide a sophisticated developer experience and engaging user experience. Similar to popular food delivery platforms like Just Eat and Deliveroo, FD caters to multiple user types, including customers, owners, and couriers, each with a personalized dashboard displaying content tailored to their specific needs. For example, customers can easily place a food order, make payments, and receive notification of its status. On the other hand, owners can manage their food orders, analyze sales data, and make informed decisions based on the data analysis tools provided by FD. Additionally, FD integrates with Paddle for secure online payment processing and Mailgun for efficient email communication, offering users convenient payment and communication options. To enhance the delivery experience, FD allows customers to view the planned delivery route on Google Maps and receive updates on its status. With its advanced technology and user-friendly features, FD aims to provide a seamless and efficient food delivery experience for all its users.
 
-### `npm start`
+## Online Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Now this API will automatically deploy to the production environment. You can access this API through https://fdapi.iocky.com/graphql. The frontend of this app will be available at https://fd.iocky.com and the avaible date of the online frontend demo is [to be announced]. And after the presentation, the host of the api and frontend might be changed to github repos or be taken down.  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+TypeScript, Node.js, React, GraphQL, Tailwind CSS, Nest.JS, TypeORM, PostgreSQL.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Github
 
-### `npm run build`
+[Frontend](https://github.com/cky008/fd-frontend)
+[Backend](https://github.com/cky008/fd-backend)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Others
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+nest -> npx @nestjs/cli
